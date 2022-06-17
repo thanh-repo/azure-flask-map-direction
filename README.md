@@ -52,8 +52,14 @@ This project is backend API flask-based which receive 3 US addresses (A, B, C), 
 }
 ```
 
+## Image Result:
+### Service:
+![Screenshot](ImageResult/Service%20Test.png)
+### POST/GET:
+![Screenshot](ImageResult/Postman%20POST_GET.png)
+
 ## Error Description:
-Error sample
+### Error sample
 ```json
 {
     "direction": "",
@@ -62,9 +68,10 @@ Error sample
 }
 ```
 ### response["service"] available
-+ EP: Error Parameter
-+ EL: Error Location
-+ ED: Error Direction
++ Ok: No problem
++ EP---: Error Parameter
++ EL---: Error Location
++ ED---: Error Direction
 + EP000: Parameter not found, (parameter)
 + EL000: Location not found, (location)
 + ED000: Direction to clinic 1, 2 not found
