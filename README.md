@@ -10,8 +10,8 @@
 This project is backend API flask-based which receive 3 US addresses (A, B, C), route and find the shortest direction of B to A or B to C.
 
 ## Api URL:
-+ Test service: http://<app-name>.azurewebsites.net
-+ Find nearest: http://<app-name>.azurewebsites.net/get-nearest
++ Test service: http://{app-name}.azurewebsites.net
++ Find nearest: http://{app-name}.azurewebsites.net/get-nearest
 
 ## Data input:
 ```json
